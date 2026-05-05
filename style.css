@@ -1,5 +1,7 @@
 body{
-    background-color: aliceblue;
+    background-color: #0F172A;
+    color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
     text-align: center;
@@ -12,17 +14,25 @@ h1{
     border:2px solid black;
     border-radius: 8px;
     text-align: center;
-    background-color: lightblue;
+    background-color: #1E293B;
+}
+.container{
+    padding: 10px;
+    margin:10px;
+    display:flex;
 }
 #submitBtn{
-    width: 150px;
-    background-color: rgb(36, 197, 36);
+    width: 60%;
+    background-color: #22C55E;
     
 }
 #resetBtn{
-      width: 150px;
-      background-color: rgb(235, 102, 102);
+      width: 60%;
+      background-color: #EF4444;
 
+}
+#add{
+    background-color: #38BDF8;
 }
 #submitBtn:hover {
     font-weight: bold;
@@ -37,4 +47,22 @@ h1{
     border-radius: 5px;
     color:white;
 
+}
+li{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    font-size: larger;
+    color: black;
+    text-align: left;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+li button{
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
 }
