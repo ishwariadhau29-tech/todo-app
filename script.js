@@ -7,7 +7,7 @@ let h4 = document.querySelector("h4"); // empty message
 let counter = document.querySelector("#counter");
 
 
-// 🔹 Counter function
+//  Counter function
 function updateCount(){
     let items = ul.children;
     let count = 0;
@@ -25,7 +25,7 @@ function updateCount(){
 }
 
 
-// 🔹 Add Task
+//  Add Task
 add.addEventListener("click", function(){
 
     let value = input.value.trim();
@@ -76,7 +76,7 @@ add.addEventListener("click", function(){
 });
 
 
-// 🔹 Done Button (remove checked)
+//  Done Button (remove checked)
 btn.addEventListener("click", function(){
 
     let items = ul.children;
@@ -105,7 +105,7 @@ btn.addEventListener("click", function(){
 });
 
 
-// 🔹 Reset Button
+//  Reset Button
 re.addEventListener("click", function(){
     ul.innerHTML = "";
     h4.textContent = "NO TASK YET!";
@@ -113,7 +113,7 @@ re.addEventListener("click", function(){
 });
 
 
-// 🔹 Enter Key
+//  Enter Key
 input.addEventListener("keydown", function(e){
     if(e.key === "Enter"){
         add.click();
